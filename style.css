@@ -1,0 +1,215 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    color:black;
+    border-top: 10px black solid;
+    border-bottom: 0.5px black solid;
+
+}
+#navbar{
+    background-color: rgb(219, 172, 148);
+    color: black;
+
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    word-spacing: 8px;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    background-color:rgb(177, 117, 87);
+    color: white;
+    font-weight: bold;
+}
+a:visited{
+    color: black;
+}
+a{
+    color: black;
+}
+#opening-message{
+    background-image: url('../Homework/Pics/beyonce.jpeg');
+    background-position: center;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#opening-message h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+#opening-message p{
+    color:white;
+    font-size: 25px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+#main{
+    float: left;
+    width: 65%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background-color: wheat;
+
+}
+#main ul{
+    list-style: none;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background:rgb(235, 124, 20);
+    color:black;
+    padding: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+#sidebar ul{
+    list-style: none;
+}
+#main-footer{
+    background: rgb(44, 43, 43);
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+
+}
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
+.flex{
+    display:flex;  
+    flex-wrap:wrap;
+    flex-basis: 22%;
+    justify-content:space-between;
+   
+}
+.flex h3{
+    text-align: center;
+}
+.books{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.author{
+    font-style: italic;
+    font-size: 25px;
+    text-align: right;
+    padding-top: 20px;
+    right: 5px;
+}
+.container-2{
+    display:flex;  
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+.container-2-box:hover{
+      border: 1px solid black;
+  }
+.container-2-box{
+    flex-basis: 42%;  
+    background-color:lightgrey;
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+
+  }
+.container-2 h2{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: black;
+      text-align: center;
+      top: 30px;
+  }
+.container-2 h2:hover{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.container-2 h6{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(59, 57, 57);
+    font-size: 12px;
+    text-align: center;
+}
+.container-2 h6:hover{
+ text-decoration: underline;
+}
+.intro h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.intro h2:hover{
+    color: black;
+}
+.table{
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+}
+.table thead{   
+    color: white;
+    background-color: black; 
+
+    text-emphasis: emphasis;
+}
+.table tbody tr:nth-child(even){
+background-color:rgb(235, 124, 20);
+table-layout: auto;
+}
+.img {
+     width: 200px; 
+     height: 100px; 
+}
+.container-3{
+    display:flex;  
+    position: relative;
+    margin-bottom: 20px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+.container-3-box{ 
+    flex-basis: 40%;
+    box-sizing: border-box;
+
+  }
